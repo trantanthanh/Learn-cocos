@@ -11,14 +11,43 @@ export class Player extends Component {
     // @property
     // serializableDummy = 0;
 
+    @property
+    public jumpHeight = 0;
+    @property
+    public jumpDuration = 0;
+    @property
+    public maxMoveSpeed = 0;
+    @property
+    public accel = 0;
+
     start () {
         // [3]
     }
 
-    // update (deltaTime: number) {
-    //     // [4]
-    // }
-}
+    update (deltaTime: number) {
+        // [4]
+    }
+
+//     runJumpAction () {
+//         console.log("runJumpAction");
+//         // Jump up
+//         var jumpUp = cc.tween().by(this.jumpDuration, {y: this.jumpHeight}, {easing: 'sineOut'});
+//         // Jump down
+//         var jumpDown = cc.tween().by(this.jumpDuration, {y: -this.jumpHeight}, {easing: 'sineIn'});
+
+//         // Create a easing and perform actions in the order of "jumpUp", "jumpDown"
+//         var tween = cc.tween().sequence(jumpUp, jumpDown);
+//         // Repeat
+//         return cc.tween().repeatForever(tween);
+//     }
+
+//     onLoad() {
+//         console.log("onLoad");
+//         // Initialize the jump action
+//         var jumpAction = this.runJumpAction();
+//         cc.tween(this.node).then(jumpAction).start()
+//     }
+// }
 
 /**
  * [1] Class member could be defined like this.
