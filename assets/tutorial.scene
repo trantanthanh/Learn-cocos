@@ -396,7 +396,6 @@
       "__id__": 8
     },
     "_enabled": true,
-    "__prefab": null,
     "jumpHeight": 200,
     "jumpDuration": 0.3,
     "maxMoveSpeed": 400,
@@ -582,8 +581,8 @@
     "_isAbsBottom": true,
     "_isAbsHorizontalCenter": true,
     "_isAbsVerticalCenter": true,
-    "_originalWidth": 0,
-    "_originalHeight": 0,
+    "_originalWidth": 960,
+    "_originalHeight": 640,
     "_alignMode": 2,
     "_lockFlags": 0,
     "_id": "4azavoKSNAL7TQHNMA9fqm"
