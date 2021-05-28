@@ -47,7 +47,7 @@ export class Player extends Component {
 //         var jumpAction = this.runJumpAction();
 //         cc.tween(this.node).then(jumpAction).start()
 //     }
-// }
+}
 
 /**
  * [1] Class member could be defined like this.
